@@ -1,0 +1,85 @@
+.App {
+    text-align: center;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #282c34;
+}
+
+.detail-container{
+    padding: 10vh;
+    padding-top: 3vh;
+}
+
+.user-details-con{
+    display: flex;
+    color:gray;
+    margin:2vh ;
+}
+.user-img{
+    height: 30px;
+    width: 30px;
+    margin-right: 2vh;
+    border-radius: 50%;
+}
+.line{
+    color: honeydew;
+    background-color: white;
+}
+.labelContainer {
+    display: flex;
+}
+
+.label {
+    margin-left: 2vw;
+}
+
+.label-item {
+    margin-left: .5vw;
+}
+
+.info-icon {
+    color: green;
+    margin-right: 1vh;
+}
+.details{
+    padding: 2vh;
+    font :10px;
+}
+.open-issues {
+    font-size: 1.5vh;
+}
+
+.issue-link {
+    text-decoration: none;
+}
+.img-issue{
+    width: 100vh;
+}
+.comment-text {
+    font-size: 1.5vh;
+    position: absolute;
+    text-align: center;
+    width: 3vh;
+    padding-top: 1px;
+}
+
+.comment-container {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button-con{ 
+    display: flex;
+    margin-top: 5vh; 
+    margin-bottom: 5vh;
+ }
+ 
+ .comment-card{
+     margin-top: 1vh;
+     width: 100%;
+ }
+ 
+ .inner-button-con{
+      margin:0 auto; 
+ }
